@@ -8,7 +8,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import java.util.Set;
 
 public class Titov_HW15_Test {
@@ -50,5 +49,6 @@ public class Titov_HW15_Test {
             driver.close();
 //            driver.switchTo().window(currentWindow);
 //            driver.findElement(By.linkText("Contact us")).isDisplayed();
+
         }
     }

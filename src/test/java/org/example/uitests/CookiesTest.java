@@ -30,7 +30,6 @@ public class CookiesTest extends BaseTestClass {
         driver.manage().addCookie(cookie);
 
         Cookie someCookie = driver.manage().getCookieNamed("Some New Cookie");
-//        System.out.println(someCookie.getName() + " --- " + someCookie.getValue());
         System.out.println(cookie.getName() + " --- " + cookie.getValue());
         driver.manage().deleteCookieNamed("Some New Cookie");
         someCookie = driver.manage().getCookieNamed("Some New Cookie");

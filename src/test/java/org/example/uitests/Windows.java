@@ -3,7 +3,6 @@ package org.example.uitests;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.Set;
 
 public class Windows extends BaseTestClass {

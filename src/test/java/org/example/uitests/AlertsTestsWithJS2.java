@@ -70,7 +70,6 @@ public class AlertsTestsWithJS2 {
         workWithAlert(true);
         String result = getResult();
         Assert.assertEquals(result, "You successfully clicked an alert");
-
     }
 
     @Test
@@ -88,7 +87,6 @@ public class AlertsTestsWithJS2 {
         String result = getResult();
         Assert.assertEquals(result, "You clicked: Cancel");
     }
-
 
     @Test
     public void promptTestOk() {
