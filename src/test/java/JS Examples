@@ -1,0 +1,4 @@
+document.getElementById("result")
+
+var result = document.getElementById("result")
+result.textContent
